@@ -32,9 +32,9 @@
           u.O.NEXT_PUBLIC_CHAIN_ID,
           o.NX,
           {
-            name: "eigenlayerAI",
-            description: "eigenlayerAI",
-            url: "app.eigenlayerAI.xyz",
+            name: "edgelayerAI",
+            description: "edgelayerAI",
+            url: "app.edgelayerAI.xyz",
             icons: ["https://avatars.githubusercontent.com/u/92827658"],
           },
           c
@@ -270,9 +270,9 @@
           NODE_ENV: a.z.enum(["development", "test", "production"]),
           NEXT_PUBLIC_CHAIN_ID: a.z.string().min(1),
           COINGECKO_API_KEY: a.z.string().min(1),
-          NEXT_PUBLIC_eigenlayerAI_BACKEND_URI: a.z.string().min(1),
-          NEXT_PUBLIC_eigenlayerAI_BACKEND_URI_V2: a.z.string().min(1),
-          NEXT_PUBLIC_eigenlayerAI_BACKEND_URI_V2_REST: a.z.string().min(1),
+          NEXT_PUBLIC_edgelayerAI_BACKEND_URI: a.z.string().min(1),
+          NEXT_PUBLIC_edgelayerAI_BACKEND_URI_V2: a.z.string().min(1),
+          NEXT_PUBLIC_edgelayerAI_BACKEND_URI_V2_REST: a.z.string().min(1),
           NEXT_PUBLIC_VERCEL_ENV: a.z.enum([
             "development",
             "production",
@@ -318,9 +318,9 @@
             "production",
             "preview",
           ]),
-          NEXT_PUBLIC_eigenlayerAI_BACKEND_URI: a.z.string().min(1),
-          NEXT_PUBLIC_eigenlayerAI_BACKEND_URI_V2: a.z.string().min(1),
-          NEXT_PUBLIC_eigenlayerAI_BACKEND_URI_V2_REST: a.z.string().min(1),
+          NEXT_PUBLIC_edgelayerAI_BACKEND_URI: a.z.string().min(1),
+          NEXT_PUBLIC_edgelayerAI_BACKEND_URI_V2: a.z.string().min(1),
+          NEXT_PUBLIC_edgelayerAI_BACKEND_URI_V2_REST: a.z.string().min(1),
           NEXT_PUBLIC_SANCTIONS_ON: a.z.boolean(),
           NEXT_PUBLIC_ALCHEMY_API_KEY: a.z.string(),
           NEXT_PUBLIC_RESTAKE_DISPLAY: a.z.object({
@@ -353,14 +353,14 @@
         },
         runtimeEnv: {
           NODE_ENV: "production",
-          NEXT_PUBLIC_eigenlayerAI_BACKEND_URI:
+          NEXT_PUBLIC_edgelayerAI_BACKEND_URI:
             "http://172.0.0.1:7200/api/v1",
-          NEXT_PUBLIC_eigenlayerAI_BACKEND_URI_V2_REST:
+          NEXT_PUBLIC_edgelayerAI_BACKEND_URI_V2_REST:
             "http://172.0.0.1:7200/api/v1".replace(
               /v1$/,
               "v2"
             ),
-          NEXT_PUBLIC_eigenlayerAI_BACKEND_URI_V2:
+          NEXT_PUBLIC_edgelayerAI_BACKEND_URI_V2:
             "http://172.0.0.1:7200/grpc",
           NEXT_PUBLIC_BLOCK_EXPLORER_URL: "https://etherscan.io",
           NEXT_PUBLIC_CHAIN_ID: "1",
@@ -984,7 +984,7 @@
           hash: null,
         },
         u =
-          "https://docs.eigenlayerAI.xyz/eigenlayerAI/restaking-guides/restaking-user-guide/native-restaking/create-eigenpod-and-set-withdrawal-credentials/repointing-a-validators-withdrawal-credentials";
+          "https://docs.edgelayerAI.xyz/edgelayerAI/restaking-guides/restaking-user-guide/native-restaking/create-eigenpod-and-set-withdrawal-credentials/repointing-a-validators-withdrawal-credentials";
     },
     3993: function (e, t, n) {
       n.d(t, {
